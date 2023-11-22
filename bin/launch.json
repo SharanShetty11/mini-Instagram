@@ -1,0 +1,66 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "login2Server",
+      "request": "launch",
+      "mainClass": "login2Server",
+      "projectName": "javafxTest_2fe38a3e"
+    },
+    {
+      "type": "java",
+      "name": "Dashboard",
+      "request": "launch",
+      "mainClass": "Dashboard",
+      "projectName": "javafxTest_2fe38a3e"
+    },
+    {
+      "type": "java",
+      "name": "LoginServer",
+      "request": "launch",
+      "mainClass": "LoginServer",
+      "projectName": "javafxTest_2fe38a3e"
+    },
+    {
+      "type": "java",
+      "name": "database",
+      "request": "launch",
+      "mainClass": "database",
+      "projectName": "javafxTest_2fe38a3e"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "javafxTest_2fe38a3e",
+      "vmArgs": "--module-path \"C:/Users/shett/Downloads/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib\" --add-modules javafx.controls,javafx.fxml -cp \"C:/Users/shett/Downloads/mysql-connector-j-8.2.0/mysql-connector-j-8.2.0mysql-connector-j-8.2.0.jar\""
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/shett/OneDrive/Desktop/JavaProject/javafxTest/src",
+      "program": "c:/Users/shett/OneDrive/Desktop/JavaProject/javafxTest/src/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Dashboard">
+    <children>
+        <!-- Background with the specified color -->
+        <AnchorPane prefHeight="500.0" prefWidth="134.0" style="-fx-background-color: #C13584;"/>
+
+        <!-- Content Area -->
+        <AnchorPane layoutY="50.0" prefHeight="450.0" prefWidth="600.0">
+
+            <!-- Dashboard Title -->
+            <Label layoutX="208.0" layoutY="26.0" text="Dashboard">
+                <font>
+                    <Font name="Comic Sans MS Bold" size="36.0"/>
+                </font>
+            </Label>
+
+            <!-- Welcome Label -->
+            <Label fx:id="welcomeLabel" layoutX="208.0" layoutY="157.0" text="Welcome ">
+                <font>
+                    <Font name="Comic Sans MS Bold" size="18.0"/>
+                </font>
+            </Label>
+
+            <!-- Like Button (Heart Symbol) -->
+            <HBox spacing="10" layoutX="208.0" layoutY="200.0">
+                <Button text="❤️" onAction="#likeAction" fx:id="likeButton"/>
+            </HBox>
+
+            <!-- Other UI elements as needed -->
+
+        </AnchorPane>
+    </children>
+</AnchorPane>
